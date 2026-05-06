@@ -1,0 +1,22 @@
+{E:/vscode files/Verilog/Snake_&_ladder/dice.v} {1 {vlog -work work -stats=none {E:/vscode files/Verilog/Snake_&_ladder/dice.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dice
+
+Top level modules:
+	dice
+
+} {} {}} {E:/vscode files/Verilog/Snake_&_ladder/tb.v} {1 {vlog -work work -stats=none {E:/vscode files/Verilog/Snake_&_ladder/tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {E:/vscode files/Verilog/Snake_&_ladder/game.v} {1 {vlog -work work -stats=none {E:/vscode files/Verilog/Snake_&_ladder/game.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module game
+
+Top level modules:
+	game
+
+} {} {}}

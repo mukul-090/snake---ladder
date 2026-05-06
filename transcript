@@ -1,0 +1,125 @@
+# do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:23:11 on Apr 18,2026
+# vlog dice.v game.v tb.v 
+# -- Compiling module dice
+# -- Compiling module game
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:23:12 on Apr 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.tb 
+# Start time: 14:23:12 on Apr 18,2026
+# Loading work.tb
+# Loading work.dice
+# Loading work.game
+# ---- Snake & Ladder Game Start ----
+# Time=0 | Turn=0 | Dice=1 | P1=0 | P2=0 | Win=0
+# Time=20 | Turn=1 | Dice=3 | P1=1 | P2=0 | Win=0
+# Time=60 | Turn=0 | Dice=5 | P1=1 | P2=3 | Win=0
+# Time=100 | Turn=1 | Dice=1 | P1=6 | P2=3 | Win=0
+# Time=140 | Turn=0 | Dice=1 | P1=6 | P2=25 | Win=0
+# Time=180 | Turn=1 | Dice=2 | P1=7 | P2=25 | Win=0
+# Time=220 | Turn=0 | Dice=3 | P1=7 | P2=5 | Win=0
+# Time=260 | Turn=1 | Dice=5 | P1=10 | P2=5 | Win=0
+# Time=300 | Turn=0 | Dice=6 | P1=10 | P2=10 | Win=0
+# Time=340 | Turn=1 | Dice=4 | P1=16 | P2=10 | Win=0
+# Time=380 | Turn=0 | Dice=6 | P1=16 | P2=14 | Win=0
+# Time=420 | Turn=1 | Dice=6 | P1=22 | P2=14 | Win=0
+# Time=460 | Turn=0 | Dice=1 | P1=22 | P2=20 | Win=0
+# Time=500 | Turn=1 | Dice=3 | P1=23 | P2=20 | Win=0
+# Time=540 | Turn=0 | Dice=4 | P1=23 | P2=23 | Win=0
+# Time=580 | Turn=1 | Dice=3 | P1=5 | P2=23 | Win=0
+# Time=620 | Turn=0 | Dice=4 | P1=5 | P2=26 | Win=0
+# Time=660 | Turn=1 | Dice=4 | P1=9 | P2=26 | Win=0
+# Time=700 | Turn=0 | Dice=3 | P1=9 | P2=30 | Win=0
+# Time=740 | Turn=1 | Dice=3 | P1=12 | P2=30 | Win=0
+# Time=780 | Turn=0 | Dice=2 | P1=12 | P2=33 | Win=0
+# Time=820 | Turn=1 | Dice=6 | P1=14 | P2=33 | Win=0
+# Time=860 | Turn=0 | Dice=3 | P1=14 | P2=39 | Win=0
+# Time=900 | Turn=1 | Dice=1 | P1=17 | P2=39 | Win=0
+# Time=940 | Turn=0 | Dice=2 | P1=17 | P2=3 | Win=0
+# Time=980 | Turn=1 | Dice=1 | P1=19 | P2=3 | Win=0
+# Time=1020 | Turn=0 | Dice=4 | P1=19 | P2=25 | Win=0
+# Time=1060 | Turn=1 | Dice=1 | P1=23 | P2=25 | Win=0
+# Time=1100 | Turn=0 | Dice=4 | P1=23 | P2=26 | Win=0
+# Time=1140 | Turn=1 | Dice=4 | P1=5 | P2=26 | Win=0
+# Time=1180 | Turn=0 | Dice=5 | P1=5 | P2=30 | Win=0
+# Time=1220 | Turn=1 | Dice=2 | P1=10 | P2=30 | Win=0
+# Time=1260 | Turn=0 | Dice=3 | P1=10 | P2=32 | Win=0
+# Time=1300 | Turn=1 | Dice=4 | P1=46 | P2=32 | Win=0
+# Time=1340 | Turn=0 | Dice=1 | P1=46 | P2=36 | Win=0
+# Time=1380 | Turn=1 | Dice=1 | P1=47 | P2=36 | Win=0
+# Time=1420 | Turn=0 | Dice=6 | P1=47 | P2=37 | Win=0
+# Time=1460 | Turn=1 | Dice=3 | P1=53 | P2=37 | Win=0
+# Time=1500 | Turn=0 | Dice=3 | P1=53 | P2=3 | Win=0
+# Time=1540 | Turn=1 | Dice=3 | P1=56 | P2=3 | Win=0
+# Time=1580 | Turn=0 | Dice=6 | P1=56 | P2=6 | Win=0
+# Time=1620 | Turn=1 | Dice=4 | P1=62 | P2=6 | Win=0
+# Time=1660 | Turn=0 | Dice=2 | P1=62 | P2=10 | Win=0
+# Time=1700 | Turn=1 | Dice=1 | P1=64 | P2=10 | Win=0
+# Time=1740 | Turn=0 | Dice=6 | P1=64 | P2=11 | Win=0
+# Time=1780 | Turn=1 | Dice=5 | P1=70 | P2=11 | Win=0
+# Time=1820 | Turn=0 | Dice=6 | P1=70 | P2=16 | Win=0
+# Time=1860 | Turn=1 | Dice=1 | P1=76 | P2=16 | Win=0
+# Time=1900 | Turn=0 | Dice=2 | P1=76 | P2=17 | Win=0
+# Time=1940 | Turn=1 | Dice=5 | P1=78 | P2=17 | Win=0
+# Time=1980 | Turn=0 | Dice=3 | P1=78 | P2=22 | Win=0
+# Time=2020 | Turn=1 | Dice=1 | P1=81 | P2=22 | Win=0
+# Time=2060 | Turn=0 | Dice=5 | P1=81 | P2=23 | Win=0
+# Time=2100 | Turn=1 | Dice=6 | P1=20 | P2=23 | Win=0
+# Time=2140 | Turn=0 | Dice=2 | P1=20 | P2=29 | Win=0
+# Time=2180 | Turn=1 | Dice=4 | P1=22 | P2=29 | Win=0
+# Time=2220 | Turn=0 | Dice=5 | P1=22 | P2=33 | Win=0
+# Time=2260 | Turn=1 | Dice=6 | P1=5 | P2=33 | Win=0
+# Time=2300 | Turn=0 | Dice=1 | P1=5 | P2=39 | Win=0
+# Time=2340 | Turn=1 | Dice=4 | P1=6 | P2=39 | Win=0
+# Time=2380 | Turn=0 | Dice=6 | P1=6 | P2=43 | Win=0
+# Time=2420 | Turn=1 | Dice=1 | P1=12 | P2=43 | Win=0
+# Time=2460 | Turn=0 | Dice=2 | P1=12 | P2=44 | Win=0
+# Time=2500 | Turn=1 | Dice=1 | P1=14 | P2=44 | Win=0
+# Time=2540 | Turn=0 | Dice=1 | P1=14 | P2=45 | Win=0
+# Time=2580 | Turn=1 | Dice=6 | P1=15 | P2=45 | Win=0
+# Time=2620 | Turn=0 | Dice=4 | P1=15 | P2=51 | Win=0
+# Time=2660 | Turn=1 | Dice=6 | P1=19 | P2=51 | Win=0
+# Time=2700 | Turn=0 | Dice=4 | P1=19 | P2=57 | Win=0
+# Time=2740 | Turn=1 | Dice=1 | P1=23 | P2=57 | Win=0
+# Time=2780 | Turn=0 | Dice=6 | P1=23 | P2=58 | Win=0
+# Time=2820 | Turn=1 | Dice=4 | P1=29 | P2=58 | Win=0
+# Time=2860 | Turn=0 | Dice=5 | P1=29 | P2=62 | Win=0
+# Time=2900 | Turn=1 | Dice=3 | P1=34 | P2=62 | Win=0
+# Time=2940 | Turn=0 | Dice=5 | P1=34 | P2=65 | Win=0
+# Time=2980 | Turn=1 | Dice=3 | P1=39 | P2=65 | Win=0
+# Time=3020 | Turn=0 | Dice=5 | P1=39 | P2=68 | Win=0
+# Time=3060 | Turn=1 | Dice=2 | P1=44 | P2=68 | Win=0
+# Time=3100 | Turn=0 | Dice=4 | P1=44 | P2=70 | Win=0
+# Time=3140 | Turn=1 | Dice=1 | P1=48 | P2=70 | Win=0
+# Time=3180 | Turn=0 | Dice=5 | P1=48 | P2=71 | Win=0
+# Time=3220 | Turn=1 | Dice=6 | P1=53 | P2=71 | Win=0
+# Time=3260 | Turn=0 | Dice=2 | P1=53 | P2=77 | Win=0
+# Time=3300 | Turn=1 | Dice=5 | P1=55 | P2=77 | Win=0
+# Time=3340 | Turn=0 | Dice=6 | P1=55 | P2=82 | Win=0
+# Time=3380 | Turn=1 | Dice=1 | P1=61 | P2=82 | Win=0
+# Time=3420 | Turn=0 | Dice=1 | P1=61 | P2=83 | Win=0
+# Time=3460 | Turn=1 | Dice=6 | P1=62 | P2=83 | Win=0
+# Time=3500 | Turn=0 | Dice=1 | P1=62 | P2=89 | Win=0
+# Time=3540 | Turn=1 | Dice=1 | P1=63 | P2=89 | Win=0
+# Time=3580 | Turn=0 | Dice=6 | P1=63 | P2=90 | Win=0
+# Time=3620 | Turn=1 | Dice=6 | P1=80 | P2=90 | Win=0
+# Time=3660 | Turn=0 | Dice=1 | P1=80 | P2=96 | Win=0
+# Time=3700 | Turn=1 | Dice=6 | P1=81 | P2=96 | Win=0
+# Time=3740 | Turn=0 | Dice=3 | P1=81 | P2=96 | Win=0
+# Time=3780 | Turn=1 | Dice=6 | P1=84 | P2=96 | Win=0
+# Time=3820 | Turn=0 | Dice=5 | P1=84 | P2=96 | Win=0
+# Time=3860 | Turn=1 | Dice=5 | P1=89 | P2=96 | Win=0
+# Time=3900 | Turn=0 | Dice=5 | P1=89 | P2=96 | Win=0
+# Time=3940 | Turn=1 | Dice=4 | P1=94 | P2=96 | Win=0
+# Time=3980 | Turn=0 | Dice=6 | P1=94 | P2=100 | Win=1
+# Game Over!
+# Game Log saved to file
+# ** Note: $finish    : tb.v(72)
+#    Time: 4020 ps  Iteration: 1  Instance: /tb
+# End time: 14:23:12 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
